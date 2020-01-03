@@ -9,5 +9,5 @@ RUN apt-get update -y && \
     
     #ln -s /usr/bin/python2.7 /usr/bin/python && \
     git clone https://github.com/Illumina/BeadArrayFiles && \
-    python setup.py sdist && \
-    python setup.py install
+    python BeadArrayFiles/setup.py sdist && \
+    python BeadArrayFiles/setup.py install
